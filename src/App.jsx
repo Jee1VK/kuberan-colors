@@ -52,10 +52,12 @@ export default function App() {
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col items-center justify-between p-4 font-sans">
       {/* Header */}
       <header className="w-full max-w-2xl flex items-center justify-between py-4 border-b border-slate-800">
-        <div className="flex items-center space-x-2">
-          <Sparkles className="w-6 h-6 text-indigo-400" />
-          <h1 className="text-2xl font-black tracking-wider bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-            KUBERAN COLORS
+        <div className="flex items-center space-x-3">
+          <a href="https://kuberansilks.com/" target="_blank" rel="noopener noreferrer" className="shrink-0 hover:opacity-80 transition-opacity">
+            <img src="/images/kuberan_logo_white_bg.png" alt="Kuberan Silks Logo" className="w-8 h-8 rounded" />
+          </a>
+          <h1 className="text-xl md:text-2xl font-black tracking-wider bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+            KUBERAN COLORS (COLOR IQ GAME)
           </h1>
         </div>
         <div className="flex items-center space-x-4">
